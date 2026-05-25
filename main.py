@@ -17,7 +17,7 @@ MY_EMAIL = os.environ.get("namantyagidpsg@gmail.com")
 MY_PASSWORD = os.environ.get("skaxpovwlsprhbep")
 
 df = pd.read_csv("./birthdays.csv")
-now = dt.datetime.now()
+now = dt.now()
 
 receiver_data = df[(df['day'] == now.day) & (df['month'] == now.month)]
 
