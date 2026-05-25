@@ -1,1 +1,6 @@
 pandas
+requests
+datetime
+random
+smtplib
+os
